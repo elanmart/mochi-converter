@@ -6,9 +6,14 @@ authors = ["Marcin Elantkowski <marcin.elantkowski@roche.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+edn_format = "^0.7.0"
+requests = "^2.22.0"
+black = "^19.10b0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+ipykernel = "^5.1.4"
+jupyter = "^1.0.0"
 
 [tool.poetry.scripts]
 main = "mochi_converter.main:main"

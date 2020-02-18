@@ -1,0 +1,15 @@
+credentials:
+  user: witam
+  token: hej
+
+decks:
+  name: My Deck
+  id: 213298dsakldjsaklj4k1
+  children:
+    - name: Hej
+      id: 213219dasodasl;
+    - name: hi
+      id: os;aiop1231293129
+      children:
+        - name: dsa
+          id: dkasldks
