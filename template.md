@@ -1,47 +1,21 @@
-# Deck1::Deck2
+# Test
 
-## Q:
+## Q
 
-dkoaskdoas
+What is `2 + 2`
+--- 
+`4`
 
+## QA
 
-
+Capital of UK
 ---
+London
 
+## QA
 
+!deck: Test::Sub-test
 
-ans
-
-
-
-## QA:
-
-
-
-dsakldk
-
-
-
+Capital of Germany
 ---
-
-ds;ald;as
-
-
-## QA:
-
-!deck: kodsko
-
-
-sdasld;as
-
-witam witam
-
-
-hejko
-
-
----
-
-
-
-kladskdls
+Berlin

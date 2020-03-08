@@ -9,6 +9,7 @@ python = "^3.7"
 edn_format = "^0.7.0"
 requests = "^2.22.0"
 black = "^19.10b0"
+pyyaml = "^5.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -16,8 +17,7 @@ ipykernel = "^5.1.4"
 jupyter = "^1.0.0"
 
 [tool.poetry.scripts]
-main = "mochi_converter.main:main"
-foo = "mochi_converter.main:foo"
+convert = "mochi_converter.cli:main"
 
 [build-system]
 requires = ["poetry>=0.12"]

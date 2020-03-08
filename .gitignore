@@ -2,6 +2,10 @@
 *.yaml
 !config.example.yaml
 
+# IDEs
+.vscode/
+.idea/
+
 *.py[cod]
 
 # C extensions
