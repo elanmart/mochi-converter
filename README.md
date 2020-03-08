@@ -1,6 +1,10 @@
 # Mochi converter
 
-This is a minimal POC implementation of `markdown` to `mochi` converter
+This is a minimal POC implementation of `markdown` to `mochi` converter.
+
+[Mochi](https://mochi.cards/) is a neat, markdown-centric spaced repetition software. 
+
+In my workflows, I often take notes in `Notion` or other tools, and would then like to convert them all at once into flashcards, which is not yet supported by `Mochi`, hence the converter. 
 
 # What's missing
 
