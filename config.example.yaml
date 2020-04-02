@@ -4,7 +4,7 @@ credentials:
 
 decks:
   - name: Test
-    id: d872277b-f2ab-4ee3-bc90-5821fe9bf3b9
+    id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
     children:
     - name: Sub-test
-      id: ae08a8dc-3755-4827-860a-361aa639bc3d
+      id: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx

@@ -21,9 +21,25 @@ def main() -> None:
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--input', required=True)
-    parser.add_argument('--output', default='converted')
-    parser.add_argument('--config', default='config.yaml')
+    parser.add_argument(
+        '--input',
+        help='Input markdown file that should be converted into Mochi file', 
+        required=True
+    )
+    parser.add_argument(
+        '--output', 
+        default='converted', 
+        help='''filename or path where the results should be written. Defaults to "converted"
+        Note: the filename should NOT include the extension, as the converted will generate 
+        two files: <name>.edn and <name>.mochi 
+        The latter is just a zipped version of the former.
+        '''
+    )
+    parser.add_argument(
+        '--config', 
+        default='config.yaml',
+        help='Path to the config file which should specify the names and IDs of your decks'
+    )
 
     args = parser.parse_args()
 
