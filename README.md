@@ -117,6 +117,8 @@ Zurich
 
 # Usage
 
+## Generating `mochi` file
+
 Once you have your `config.yaml` and the markdown file, run:
 
 ```bash
@@ -130,3 +132,10 @@ poetry run convert -h
 ```
 
 for details
+
+## Submitting to `mochi`
+
+Go to the app and select `import` (at the bottom of the side menu) and `Mochi` as input format.
+Now navigate to the generated `*.mochi` file. You should see the cards appear in your decks!
+
+Note: you should see a message that a deck with given ID already exists, you can ignore it. 

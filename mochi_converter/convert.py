@@ -40,7 +40,7 @@ def _maybe_override_deck(
     Removes the directive from the body.
     """
 
-    override_pattern = re.compile(r'\n!deck: (.+)')
+    override_pattern = re.compile(r'!deck: (.+)')
     override = re.search(override_pattern, content)
 
     if override is not None:
@@ -70,6 +70,9 @@ def _parse_card(
 
     content, deck = _maybe_override_deck(content, deck)
     
+    assert '!deck' not in deck
+    assert '!deck' not in content
+
     q, a = content.split('---')
     q, a = q.strip(), a.strip()
 
